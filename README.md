@@ -9,15 +9,23 @@ This project was carried out with the aim to predict the state of sensorless mac
 
 
 #### Quick Start
-The dataset for this project was of a size beyond GitHub accommodation levels. As such, an abstraction was provided in order to import the dataset and compress it for storage on the fly. The compressed data file is to be found in the `data/archive` folder. For use in the project, the compressed file is to be decompressed into the `data/dataset
-` folder.
+The dataset for this project was of a file size beyond GitHub accommodation levels. As such, an abstraction was provided in order to read the dataset into memory and compress it for storage on the fly. The compressed data file is to be found in the `data/archive` directory. For use in the project, the compressed file is to be decompressed into the `data/dataset
+` directory.
 
 To run the scripts, type as below in your CLI:
+1. Navigate to the `scripts` directory.
+```
+$ cd scripts
+```
+2. Next, run the `main.py` file with the following syntax:
 
-`py main <--arguments>` e.g.
+    `py main --argument argument_value`
 
-`py main.py --n_jobs -1`
+Example:
 
+```
+$ py main.py --n_jobs -1
+```
 Acceptable arguments include:
 - n_jobs (default = -1)
 - visualize (default = False)
@@ -30,6 +38,9 @@ Acceptable arguments include:
 - test (create test split?)
 
 Others may be found in the `main.py` script.
+3. Generated diagnostics, text and images, will populate the `reports/text` and `reports/images` directories respectively.
+4. Find trained model artefact in the `artefacts` directory.
+
 
 #### To-Dos
 
