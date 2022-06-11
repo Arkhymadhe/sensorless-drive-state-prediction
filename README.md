@@ -38,6 +38,7 @@ Acceptable arguments include:
 - test (create test split?)
 
 Others may be found in the `main.py` script.
+
 3. Generated diagnostics, text and images, will populate the `reports/text` and `reports/images` directories respectively.
 4. Find trained model artefact in the `artefacts` directory.
 
