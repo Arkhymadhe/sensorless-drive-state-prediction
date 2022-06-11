@@ -44,10 +44,10 @@ Others may be found in the `main.py` script.
 
 
 #### Performance Report
-Feature selection techniques were applied. This saw a considerable performance improvement from `~ 85 %` to `~ 94 %`.
-After training, a performance of `~ 96 %` was recorded across board for the major classification metrics (accuracy, f1-score, recall, and precision), via `macro` averaging.
+Feature selection techniques were applied. This saw a considerable performance improvement from `~ 80 %` to `~ 81 %`.
+After final training, on the test set, a performance of `~ 96 %` was recorded across board for the major classification metrics (accuracy, f1-score, recall, and precision), via `macro` averaging.
 
-An `ExtraTreesClassifier` provided the base algorithm for the final `AdaBoost` classifier.
+An `ExtraTreesClassifier` was used as the base algorithm for the final `AdaBoost` classifier.
 
 
 
